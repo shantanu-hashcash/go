@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	sdk "github.com/sanjayhashcash/go/clients/auroraclient"
-	"github.com/sanjayhashcash/go/keypair"
-	proto "github.com/sanjayhashcash/go/protocols/aurora"
-	"github.com/sanjayhashcash/go/protocols/aurora/operations"
-	"github.com/sanjayhashcash/go/services/aurora/internal/codes"
-	"github.com/sanjayhashcash/go/services/aurora/internal/test/integration"
-	"github.com/sanjayhashcash/go/txnbuild"
-	"github.com/sanjayhashcash/go/xdr"
+	sdk "github.com/shantanu-hashcash/go/clients/auroraclient"
+	"github.com/shantanu-hashcash/go/keypair"
+	proto "github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/protocols/aurora/operations"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/codes"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test/integration"
+	"github.com/shantanu-hashcash/go/txnbuild"
+	"github.com/shantanu-hashcash/go/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

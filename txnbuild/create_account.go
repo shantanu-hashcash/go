@@ -1,9 +1,9 @@
 package txnbuild
 
 import (
-	"github.com/sanjayhashcash/go/amount"
-	"github.com/sanjayhashcash/go/support/errors"
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/amount"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // CreateAccount represents the Hcnet create account operation. See

@@ -3,11 +3,11 @@ package internal
 import (
 	"fmt"
 
-	"github.com/sanjayhashcash/go/clients/auroraclient"
-	"github.com/sanjayhashcash/go/keypair"
-	hProtocol "github.com/sanjayhashcash/go/protocols/aurora"
-	"github.com/sanjayhashcash/go/support/errors"
-	"github.com/sanjayhashcash/go/txnbuild"
+	"github.com/shantanu-hashcash/go/clients/auroraclient"
+	"github.com/shantanu-hashcash/go/keypair"
+	hProtocol "github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/txnbuild"
 )
 
 const createAccountAlreadyExistXDR = "AAAAAAAAAGT/////AAAAAQAAAAAAAAAA/////AAAAAA="

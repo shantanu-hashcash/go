@@ -10,11 +10,11 @@ import (
 	"testing"
 
 	"github.com/go-chi/chi"
-	"github.com/sanjayhashcash/go/exp/services/recoverysigner/internal/account"
-	"github.com/sanjayhashcash/go/exp/services/recoverysigner/internal/db/dbtest"
-	"github.com/sanjayhashcash/go/exp/services/recoverysigner/internal/serve/auth"
-	"github.com/sanjayhashcash/go/keypair"
-	supportlog "github.com/sanjayhashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/exp/services/recoverysigner/internal/account"
+	"github.com/shantanu-hashcash/go/exp/services/recoverysigner/internal/db/dbtest"
+	"github.com/shantanu-hashcash/go/exp/services/recoverysigner/internal/serve/auth"
+	"github.com/shantanu-hashcash/go/keypair"
+	supportlog "github.com/shantanu-hashcash/go/support/log"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

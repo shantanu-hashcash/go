@@ -3,8 +3,8 @@ package resourceadapter
 import (
 	"context"
 
-	protocol "github.com/sanjayhashcash/go/protocols/aurora"
-	"github.com/sanjayhashcash/go/services/aurora/internal/txsub"
+	protocol "github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/txsub"
 )
 
 // Populate fills out the details

@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/sanjayhashcash/go/protocols/hcnetcore"
+	"github.com/shantanu-hashcash/go/protocols/hcnetcore"
 )
 
 type State struct {

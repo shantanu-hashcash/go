@@ -2,8 +2,8 @@
 package txnbuild
 
 import (
-	"github.com/sanjayhashcash/go/support/errors"
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // ClawbackClaimableBalance represents the Hcnet clawback claimable balance operation. See

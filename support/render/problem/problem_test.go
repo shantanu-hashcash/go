@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	ge "github.com/go-errors/errors"
-	"github.com/sanjayhashcash/go/support/log"
-	"github.com/sanjayhashcash/go/support/test"
+	"github.com/shantanu-hashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/support/test"
 	"github.com/stretchr/testify/assert"
 )
 

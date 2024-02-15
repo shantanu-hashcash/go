@@ -7,9 +7,9 @@ import (
 	"encoding/base64"
 	"io"
 
-	"github.com/sanjayhashcash/go/ingest"
-	"github.com/sanjayhashcash/go/support/errors"
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/ingest"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // TransformLedgerEntryFunction is a function that transforms ledger entry

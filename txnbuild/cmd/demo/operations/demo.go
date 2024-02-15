@@ -9,15 +9,15 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/sanjayhashcash/go/clients/auroraclient"
-	"github.com/sanjayhashcash/go/network"
-	hProtocol "github.com/sanjayhashcash/go/protocols/aurora"
-	"github.com/sanjayhashcash/go/strkey"
-	"github.com/sanjayhashcash/go/support/errors"
-	"github.com/sanjayhashcash/go/txnbuild"
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/clients/auroraclient"
+	"github.com/shantanu-hashcash/go/network"
+	hProtocol "github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/strkey"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/txnbuild"
+	"github.com/shantanu-hashcash/go/xdr"
 
-	"github.com/sanjayhashcash/go/keypair"
+	"github.com/shantanu-hashcash/go/keypair"
 )
 
 // The account address of the TestNet "friendbot"

@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

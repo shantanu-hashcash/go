@@ -9,8 +9,8 @@ import (
 	"github.com/lib/pq"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sanjayhashcash/go/ingest"
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/ingest"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 func TestTransactionToMap_muxed(t *testing.T) {

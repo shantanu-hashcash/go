@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/sanjayhashcash/go/support/render/httpjson"
+	"github.com/shantanu-hashcash/go/support/render/httpjson"
 )
 
 func Handler(fn, param interface{}) (http.Handler, error) {

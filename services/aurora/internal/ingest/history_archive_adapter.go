@@ -3,10 +3,10 @@ package ingest
 import (
 	"context"
 
-	"github.com/sanjayhashcash/go/historyarchive"
-	"github.com/sanjayhashcash/go/ingest"
-	"github.com/sanjayhashcash/go/support/errors"
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/historyarchive"
+	"github.com/shantanu-hashcash/go/ingest"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // historyArchiveAdapter is an adapter for the historyarchive package to read from history archives

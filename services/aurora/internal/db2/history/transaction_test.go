@@ -9,11 +9,11 @@ import (
 	sq "github.com/Masterminds/squirrel"
 	"github.com/guregu/null"
 
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/xdr"
 
-	"github.com/sanjayhashcash/go/ingest"
-	"github.com/sanjayhashcash/go/services/aurora/internal/test"
-	"github.com/sanjayhashcash/go/toid"
+	"github.com/shantanu-hashcash/go/ingest"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test"
+	"github.com/shantanu-hashcash/go/toid"
 )
 
 func TestTransactionQueries(t *testing.T) {

@@ -16,7 +16,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 type S3ArchiveBackend struct {

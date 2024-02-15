@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/sanjayhashcash/go/services/regulated-assets-approval-server/internal/serve/httperror"
-	"github.com/sanjayhashcash/go/strkey"
-	"github.com/sanjayhashcash/go/support/errors"
-	"github.com/sanjayhashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/services/regulated-assets-approval-server/internal/serve/httperror"
+	"github.com/shantanu-hashcash/go/strkey"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/log"
 )
 
 type hcnetTOMLHandler struct {

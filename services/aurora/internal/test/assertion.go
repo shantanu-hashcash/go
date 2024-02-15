@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sanjayhashcash/go/support/render/problem"
+	"github.com/shantanu-hashcash/go/support/render/problem"
 )
 
 // Assertions provides an assertions helper.  Custom assertions for this package

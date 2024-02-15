@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/sanjayhashcash/go/clients/hcnetcore"
-	proto "github.com/sanjayhashcash/go/protocols/hcnetcore"
-	"github.com/sanjayhashcash/go/support/errors"
-	"github.com/sanjayhashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/clients/hcnetcore"
+	proto "github.com/shantanu-hashcash/go/protocols/hcnetcore"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/log"
 )
 
 // NewDefaultSubmitter returns a new, simple Submitter implementation

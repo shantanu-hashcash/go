@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/sanjayhashcash/go/protocols/aurora/effects"
-	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/protocols/aurora/effects"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 // EffectHandler is a function that is called when a new effect is received

@@ -4,11 +4,11 @@ import (
 	"go/types"
 
 	"github.com/spf13/cobra"
-	"github.com/sanjayhashcash/go/clients/auroraclient"
-	"github.com/sanjayhashcash/go/exp/services/webauth/internal/serve"
-	"github.com/sanjayhashcash/go/network"
-	"github.com/sanjayhashcash/go/support/config"
-	supportlog "github.com/sanjayhashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/clients/auroraclient"
+	"github.com/shantanu-hashcash/go/exp/services/webauth/internal/serve"
+	"github.com/shantanu-hashcash/go/network"
+	"github.com/shantanu-hashcash/go/support/config"
+	supportlog "github.com/shantanu-hashcash/go/support/log"
 )
 
 type ServeCommand struct {

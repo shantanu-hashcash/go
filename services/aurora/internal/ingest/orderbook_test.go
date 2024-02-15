@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
-	"github.com/sanjayhashcash/go/services/aurora/internal/ingest/processors"
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/db2/history"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/ingest/processors"
+	"github.com/shantanu-hashcash/go/xdr"
 
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"

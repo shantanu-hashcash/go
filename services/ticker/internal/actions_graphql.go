@@ -1,9 +1,9 @@
 package ticker
 
 import (
-	"github.com/sanjayhashcash/go/services/ticker/internal/gql"
-	"github.com/sanjayhashcash/go/services/ticker/internal/tickerdb"
-	hlog "github.com/sanjayhashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/services/ticker/internal/gql"
+	"github.com/shantanu-hashcash/go/services/ticker/internal/tickerdb"
+	hlog "github.com/shantanu-hashcash/go/support/log"
 )
 
 func StartGraphQLServer(s *tickerdb.TickerSession, l *hlog.Entry, port string) {

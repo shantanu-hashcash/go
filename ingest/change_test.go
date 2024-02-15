@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 func assertChangesAreEqual(t *testing.T, a, b Change) {

@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
-	"github.com/sanjayhashcash/go/services/aurora/internal/ingest/processors"
-	"github.com/sanjayhashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/db2/history"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/ingest/processors"
+	"github.com/shantanu-hashcash/go/support/log"
 )
 
 var (

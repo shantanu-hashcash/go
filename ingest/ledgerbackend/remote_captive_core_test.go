@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 func TestGetLedgerSucceeds(t *testing.T) {

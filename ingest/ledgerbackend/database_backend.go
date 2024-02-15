@@ -6,10 +6,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/sanjayhashcash/go/network"
-	"github.com/sanjayhashcash/go/support/db"
-	"github.com/sanjayhashcash/go/support/errors"
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/network"
+	"github.com/shantanu-hashcash/go/support/db"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 const (

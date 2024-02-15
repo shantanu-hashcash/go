@@ -7,7 +7,7 @@ package main
 import (
 	"testing"
 
-	"github.com/sanjayhashcash/go/historyarchive"
+	"github.com/shantanu-hashcash/go/historyarchive"
 	"github.com/stretchr/testify/assert"
 )
 

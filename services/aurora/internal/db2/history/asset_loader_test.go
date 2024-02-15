@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sanjayhashcash/go/keypair"
-	"github.com/sanjayhashcash/go/services/aurora/internal/test"
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/keypair"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 func TestAssetKeyToString(t *testing.T) {

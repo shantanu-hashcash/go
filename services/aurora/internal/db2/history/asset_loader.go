@@ -9,11 +9,11 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/sanjayhashcash/go/support/collections/set"
-	"github.com/sanjayhashcash/go/support/db"
-	"github.com/sanjayhashcash/go/support/errors"
-	"github.com/sanjayhashcash/go/support/ordered"
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/support/collections/set"
+	"github.com/shantanu-hashcash/go/support/db"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/ordered"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 type AssetKey struct {
@@ -150,7 +150,7 @@ func (a *AssetLoader) Exec(ctx context.Context, session db.SessionInterface) err
 	assetCodes := make([]string, 0, len(a.set)-len(a.ids))
 	assetIssuers := make([]string, 0, len(a.set)-len(a.ids))
 	// sort entries before inserting rows to prevent deadlocks on acquiring a ShareLock
-	// https://github.com/sanjayhashcash/go/issues/2370
+	// https://github.com/shantanu-hashcash/go/issues/2370
 	sort.Slice(keys, func(i, j int) bool {
 		return keys[i].String() < keys[j].String()
 	})

@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
-	"github.com/sanjayhashcash/go/strkey"
+	"github.com/shantanu-hashcash/go/strkey"
 )
 
 func MustMuxedAddress(address string) MuxedAccount {

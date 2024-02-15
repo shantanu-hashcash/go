@@ -6,9 +6,9 @@ import (
 	"io"
 
 	"github.com/sirupsen/logrus"
-	"github.com/sanjayhashcash/go/ingest"
-	backends "github.com/sanjayhashcash/go/ingest/ledgerbackend"
-	"github.com/sanjayhashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/ingest"
+	backends "github.com/shantanu-hashcash/go/ingest/ledgerbackend"
+	"github.com/shantanu-hashcash/go/support/log"
 )
 
 func statistics() {

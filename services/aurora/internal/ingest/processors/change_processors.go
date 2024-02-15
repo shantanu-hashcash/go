@@ -4,8 +4,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/sanjayhashcash/go/ingest"
-	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/ingest"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 func StreamChanges(

@@ -8,10 +8,10 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/sanjayhashcash/go/protocols/aurora/effects"
-	"github.com/sanjayhashcash/go/services/aurora/internal/db2"
-	"github.com/sanjayhashcash/go/support/errors"
-	"github.com/sanjayhashcash/go/toid"
+	"github.com/shantanu-hashcash/go/protocols/aurora/effects"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/db2"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/toid"
 )
 
 // UnmarshalDetails unmarshals the details of this effect into `dest`

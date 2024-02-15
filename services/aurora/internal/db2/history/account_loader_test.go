@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sanjayhashcash/go/keypair"
-	"github.com/sanjayhashcash/go/services/aurora/internal/test"
+	"github.com/shantanu-hashcash/go/keypair"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test"
 )
 
 func TestAccountLoader(t *testing.T) {

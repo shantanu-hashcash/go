@@ -16,7 +16,7 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/sanjayhashcash/go/support/db"
+	"github.com/shantanu-hashcash/go/support/db"
 )
 
 // Driver represents a data source against which federation queries can be

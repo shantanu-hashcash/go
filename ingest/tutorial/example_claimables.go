@@ -6,9 +6,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/sanjayhashcash/go/historyarchive"
-	"github.com/sanjayhashcash/go/ingest"
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/historyarchive"
+	"github.com/shantanu-hashcash/go/ingest"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 func claimables() {

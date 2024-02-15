@@ -12,15 +12,15 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/stretchr/testify/assert"
 
-	auroraContext "github.com/sanjayhashcash/go/services/aurora/internal/context"
-	"github.com/sanjayhashcash/go/services/aurora/internal/db2"
-	"github.com/sanjayhashcash/go/services/aurora/internal/ledger"
-	"github.com/sanjayhashcash/go/services/aurora/internal/test"
-	"github.com/sanjayhashcash/go/support/db"
-	"github.com/sanjayhashcash/go/support/errors"
-	"github.com/sanjayhashcash/go/support/render/problem"
-	"github.com/sanjayhashcash/go/toid"
-	"github.com/sanjayhashcash/go/xdr"
+	auroraContext "github.com/shantanu-hashcash/go/services/aurora/internal/context"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/db2"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/ledger"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test"
+	"github.com/shantanu-hashcash/go/support/db"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/render/problem"
+	"github.com/shantanu-hashcash/go/toid"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 func TestGetTransactionID(t *testing.T) {
@@ -256,7 +256,7 @@ func TestActionGetPageQuery(t *testing.T) {
 	_, err = GetPageQuery(ledgerState, r)
 	tt.Assert.Error(err)
 
-	// regression: https://github.com/sanjayhashcash/go/services/aurora/internal/issues/372
+	// regression: https://github.com/shantanu-hashcash/go/services/aurora/internal/issues/372
 	// (limit of 0 turns into 10)
 	makeTestActionRequest("/?limit=0", nil)
 	_, err = GetPageQuery(ledgerState, r)
@@ -283,7 +283,7 @@ func TestGetPageQuery(t *testing.T) {
 	_, err = GetPageQuery(ledgerState, r)
 	tt.Assert.Error(err)
 
-	// regression: https://github.com/sanjayhashcash/go/services/aurora/internal/issues/372
+	// regression: https://github.com/shantanu-hashcash/go/services/aurora/internal/issues/372
 	// (limit of 0 turns into 10)
 	r = makeTestActionRequest("/?limit=0", nil)
 	_, err = GetPageQuery(ledgerState, r)
@@ -339,7 +339,7 @@ func TestGetURLParam(t *testing.T) {
 	r := makeTestActionRequest("/accounts/{account_id}/operations?limit=100", nil)
 
 	// simulates a request where the named param is not passed.
-	// Regression for https://github.com/sanjayhashcash/go/issues/1965
+	// Regression for https://github.com/shantanu-hashcash/go/issues/1965
 	rctx := chi.RouteContext(r.Context())
 	rctx.URLParams.Keys = []string{
 		"account_id",

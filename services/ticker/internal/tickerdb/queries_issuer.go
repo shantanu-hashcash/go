@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/sanjayhashcash/go/services/ticker/internal/utils"
+	"github.com/shantanu-hashcash/go/services/ticker/internal/utils"
 )
 
 // InsertOrUpdateIssuer inserts an Issuer on the database (if new),

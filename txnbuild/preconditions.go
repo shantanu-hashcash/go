@@ -1,8 +1,8 @@
 package txnbuild
 
 import (
-	"github.com/sanjayhashcash/go/support/errors"
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // Preconditions is a container for all transaction preconditions.

@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/sanjayhashcash/go/clients/auroraclient"
-	"github.com/sanjayhashcash/go/keypair"
-	"github.com/sanjayhashcash/go/network"
-	hProtocol "github.com/sanjayhashcash/go/protocols/aurora"
-	"github.com/sanjayhashcash/go/protocols/aurora/effects"
-	"github.com/sanjayhashcash/go/protocols/aurora/operations"
-	"github.com/sanjayhashcash/go/txnbuild"
+	"github.com/shantanu-hashcash/go/clients/auroraclient"
+	"github.com/shantanu-hashcash/go/keypair"
+	"github.com/shantanu-hashcash/go/network"
+	hProtocol "github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/protocols/aurora/effects"
+	"github.com/shantanu-hashcash/go/protocols/aurora/operations"
+	"github.com/shantanu-hashcash/go/txnbuild"
 )
 
 func ExampleClient_Accounts() {

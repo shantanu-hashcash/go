@@ -8,12 +8,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/sanjayhashcash/go/clients/auroraclient"
-	"github.com/sanjayhashcash/go/protocols/aurora"
-	"github.com/sanjayhashcash/go/protocols/aurora/operations"
-	"github.com/sanjayhashcash/go/services/aurora/internal/test/integration"
-	"github.com/sanjayhashcash/go/txnbuild"
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/clients/auroraclient"
+	"github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/protocols/aurora/operations"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test/integration"
+	"github.com/shantanu-hashcash/go/txnbuild"
+	"github.com/shantanu-hashcash/go/xdr"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -375,7 +375,7 @@ func CaseContractInvokeHostFunctionInvokeStatefulContractFn(t *testing.T) {
 
 func assembleInstallContractCodeOp(t *testing.T, sourceAccount string, wasmFileName string) *txnbuild.InvokeHostFunction {
 	// Assemble the InvokeHostFunction UploadContractWasm operation:
-	// CAP-0047 - https://github.com/sanjayhashcash/hcnet-protocol/blob/master/core/cap-0047.md#creating-a-contract-using-invokehostfunctionop
+	// CAP-0047 - https://github.com/shantanu-hashcash/hcnet-protocol/blob/master/core/cap-0047.md#creating-a-contract-using-invokehostfunctionop
 
 	contract, err := os.ReadFile(filepath.Join("testdata", wasmFileName))
 	require.NoError(t, err)
@@ -392,7 +392,7 @@ func assembleInstallContractCodeOp(t *testing.T, sourceAccount string, wasmFileN
 
 func assembleCreateContractOp(t *testing.T, sourceAccount string, wasmFileName string, contractSalt string, passPhrase string) *txnbuild.InvokeHostFunction {
 	// Assemble the InvokeHostFunction CreateContract operation:
-	// CAP-0047 - https://github.com/sanjayhashcash/hcnet-protocol/blob/master/core/cap-0047.md#creating-a-contract-using-invokehostfunctionop
+	// CAP-0047 - https://github.com/shantanu-hashcash/hcnet-protocol/blob/master/core/cap-0047.md#creating-a-contract-using-invokehostfunctionop
 
 	contract, err := os.ReadFile(filepath.Join("testdata", wasmFileName))
 	require.NoError(t, err)

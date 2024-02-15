@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sanjayhashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/support/log"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/sanjayhashcash/go/services/ticker/internal/tickerdb"
-	"github.com/sanjayhashcash/go/services/ticker/internal/utils"
-	hlog "github.com/sanjayhashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/services/ticker/internal/tickerdb"
+	"github.com/shantanu-hashcash/go/services/ticker/internal/utils"
+	hlog "github.com/shantanu-hashcash/go/support/log"
 )
 
 // GenerateMarketSummaryFile generates a MarketSummary with the statistics for all

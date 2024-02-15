@@ -7,13 +7,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/sanjayhashcash/go/protocols/aurora"
-	"github.com/sanjayhashcash/go/protocols/aurora/base"
-	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
-	"github.com/sanjayhashcash/go/services/aurora/internal/test"
-	"github.com/sanjayhashcash/go/support/render/hal"
-	"github.com/sanjayhashcash/go/support/render/problem"
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/protocols/aurora/base"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/db2/history"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test"
+	"github.com/shantanu-hashcash/go/support/render/hal"
+	"github.com/shantanu-hashcash/go/support/render/problem"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 func TestAssetStatsValidation(t *testing.T) {

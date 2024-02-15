@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sanjayhashcash/go/protocols/hcnetcore"
-	"github.com/sanjayhashcash/go/support/clock"
-	"github.com/sanjayhashcash/go/support/db"
-	"github.com/sanjayhashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/protocols/hcnetcore"
+	"github.com/shantanu-hashcash/go/support/clock"
+	"github.com/shantanu-hashcash/go/support/db"
+	"github.com/shantanu-hashcash/go/support/log"
 )
 
 const (

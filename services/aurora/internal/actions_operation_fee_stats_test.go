@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	hProtocol "github.com/sanjayhashcash/go/protocols/aurora"
+	hProtocol "github.com/shantanu-hashcash/go/protocols/aurora"
 )
 
 func TestOperationFeeTestsActions_Show(t *testing.T) {

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/sanjayhashcash/go/protocols/aurora"
-	"github.com/sanjayhashcash/go/services/aurora/internal/test"
+	"github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test"
 	"github.com/stretchr/testify/assert"
 )
 

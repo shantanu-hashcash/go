@@ -3,7 +3,7 @@ package strkey_test
 import (
 	"testing"
 
-	"github.com/sanjayhashcash/go/strkey"
+	"github.com/shantanu-hashcash/go/strkey"
 	"github.com/stretchr/testify/require"
 )
 

@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/adjust/goautoneg"
-	"github.com/sanjayhashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/support/log"
 )
 
 // Negotiate inspects the Accept header of the provided request and determines

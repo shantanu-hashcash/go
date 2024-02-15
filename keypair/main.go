@@ -5,9 +5,9 @@ import (
 	"errors"
 	"io"
 
-	"github.com/sanjayhashcash/go/network"
-	"github.com/sanjayhashcash/go/strkey"
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/network"
+	"github.com/shantanu-hashcash/go/strkey"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 var (

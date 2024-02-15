@@ -6,8 +6,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/sanjayhashcash/go/gxdr"
-	"github.com/sanjayhashcash/go/randxdr"
+	"github.com/shantanu-hashcash/go/gxdr"
+	"github.com/shantanu-hashcash/go/randxdr"
 
 	"github.com/stretchr/testify/assert"
 )

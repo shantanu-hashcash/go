@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/guregu/null"
-	"github.com/sanjayhashcash/go/services/aurora/internal/test"
-	"github.com/sanjayhashcash/go/toid"
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/test"
+	"github.com/shantanu-hashcash/go/toid"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 func TestLedgerQueries(t *testing.T) {

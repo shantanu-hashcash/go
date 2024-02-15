@@ -3,10 +3,10 @@ package resourceadapter
 import (
 	"context"
 
-	"github.com/sanjayhashcash/go/amount"
-	"github.com/sanjayhashcash/go/price"
-	protocol "github.com/sanjayhashcash/go/protocols/aurora"
-	"github.com/sanjayhashcash/go/services/aurora/internal/db2/history"
+	"github.com/shantanu-hashcash/go/amount"
+	"github.com/shantanu-hashcash/go/price"
+	protocol "github.com/shantanu-hashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/services/aurora/internal/db2/history"
 )
 
 // PopulateTradeAggregation fills out the details of a trade aggregation using a row from the trade aggregations

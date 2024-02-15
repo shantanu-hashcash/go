@@ -4,11 +4,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/sanjayhashcash/go/txnbuild"
+	"github.com/shantanu-hashcash/go/txnbuild"
 
-	"github.com/sanjayhashcash/go/clients/auroraclient"
-	"github.com/sanjayhashcash/go/keypair"
-	hProtocol "github.com/sanjayhashcash/go/protocols/aurora"
+	"github.com/shantanu-hashcash/go/clients/auroraclient"
+	"github.com/shantanu-hashcash/go/keypair"
+	hProtocol "github.com/shantanu-hashcash/go/protocols/aurora"
 	"github.com/stretchr/testify/assert"
 )
 

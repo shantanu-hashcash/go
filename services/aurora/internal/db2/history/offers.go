@@ -7,7 +7,7 @@ import (
 	sq "github.com/Masterminds/squirrel"
 	"github.com/jmoiron/sqlx"
 
-	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 const offersBatchSize = 50000

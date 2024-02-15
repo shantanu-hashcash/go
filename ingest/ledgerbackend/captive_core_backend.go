@@ -13,10 +13,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
 
-	"github.com/sanjayhashcash/go/clients/hcnetcore"
-	"github.com/sanjayhashcash/go/historyarchive"
-	"github.com/sanjayhashcash/go/support/log"
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/clients/hcnetcore"
+	"github.com/shantanu-hashcash/go/historyarchive"
+	"github.com/shantanu-hashcash/go/support/log"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // Ensure CaptiveHcnetCore implements LedgerBackend

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/sanjayhashcash/go/services/ticker/internal/utils"
-	"github.com/sanjayhashcash/go/support/db/dbtest"
+	"github.com/shantanu-hashcash/go/services/ticker/internal/utils"
+	"github.com/shantanu-hashcash/go/support/db/dbtest"
 )
 
 // getDBFieldTags returns all "db" tags for a given struct, optionally excluding the "id".

@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra"
-	"github.com/sanjayhashcash/go/exp/crypto/derivation"
-	"github.com/sanjayhashcash/go/keypair"
-	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/exp/crypto/derivation"
+	"github.com/shantanu-hashcash/go/keypair"
+	"github.com/shantanu-hashcash/go/support/errors"
 	"github.com/tyler-smith/go-bip39"
 )
 

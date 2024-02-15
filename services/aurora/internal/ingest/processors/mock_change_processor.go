@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/sanjayhashcash/go/ingest"
+	"github.com/shantanu-hashcash/go/ingest"
 )
 
 var _ ChangeProcessor = (*MockChangeProcessor)(nil)

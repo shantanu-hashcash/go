@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	auroraclient "github.com/sanjayhashcash/go/clients/auroraclient"
-	"github.com/sanjayhashcash/go/services/ticker/internal/scraper"
-	"github.com/sanjayhashcash/go/services/ticker/internal/tickerdb"
-	"github.com/sanjayhashcash/go/support/errors"
-	hlog "github.com/sanjayhashcash/go/support/log"
+	auroraclient "github.com/shantanu-hashcash/go/clients/auroraclient"
+	"github.com/shantanu-hashcash/go/services/ticker/internal/scraper"
+	"github.com/shantanu-hashcash/go/services/ticker/internal/tickerdb"
+	"github.com/shantanu-hashcash/go/support/errors"
+	hlog "github.com/shantanu-hashcash/go/support/log"
 )
 
 // RefreshOrderbookEntries updates the orderbook entries for the relevant markets that were active

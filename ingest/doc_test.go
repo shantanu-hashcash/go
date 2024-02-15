@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/sanjayhashcash/go/historyarchive"
-	"github.com/sanjayhashcash/go/ingest/ledgerbackend"
-	"github.com/sanjayhashcash/go/network"
-	"github.com/sanjayhashcash/go/xdr"
+	"github.com/shantanu-hashcash/go/historyarchive"
+	"github.com/shantanu-hashcash/go/ingest/ledgerbackend"
+	"github.com/shantanu-hashcash/go/network"
+	"github.com/shantanu-hashcash/go/xdr"
 )
 
 // Example_ledgerentrieshistoryarchive demonstrates how to stream all ledger

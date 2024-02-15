@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 // String returns the value of the environment variable "name".

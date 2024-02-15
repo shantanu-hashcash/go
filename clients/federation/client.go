@@ -7,9 +7,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/sanjayhashcash/go/address"
-	proto "github.com/sanjayhashcash/go/protocols/federation"
-	"github.com/sanjayhashcash/go/support/errors"
+	"github.com/shantanu-hashcash/go/address"
+	proto "github.com/shantanu-hashcash/go/protocols/federation"
+	"github.com/shantanu-hashcash/go/support/errors"
 )
 
 // LookupByAddress performs a federated lookup following to the hcnet

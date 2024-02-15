@@ -4,8 +4,8 @@ import (
 	"math"
 	"time"
 
-	hClient "github.com/sanjayhashcash/go/clients/auroraclient"
-	hProtocol "github.com/sanjayhashcash/go/protocols/aurora"
+	hClient "github.com/shantanu-hashcash/go/clients/auroraclient"
+	hProtocol "github.com/shantanu-hashcash/go/protocols/aurora"
 )
 
 type trackerClient struct {
